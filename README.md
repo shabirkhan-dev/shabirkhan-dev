@@ -1,95 +1,104 @@
 <div align="center">
 
-# 🔮 Shabir Khan
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=6E56CF&center=true&vCenter=true&width=435&lines=Full+Stack+Architect;Security+Enthusiast;Performance+Optimizer;System+Designer)](https://git.io/typing-svg)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=300&section=header&text=Shabir%20Khan&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Crafting%20Digital%20Excellence%20|%20Full%20Stack%20Architect%20|%20Security%20Enthusiast&descAlignY=51&descAlign=50)
 
-> Crafting high-performance digital experiences in TypeScript & Rust | Breaking things ethically
-
-![Profile Views](https://komarev.com/ghpvc/?username=shabirkhan23&color=blueviolet)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=6E56CF&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=800&height=100&lines=6%2B+Years+of+Digital+Craftsmanship;50%25+API+Optimization+Specialist+%7C+40%25+Performance+Booster;Serving+100k%2B+Users+Across+Multiple+Platforms)](https://git.io/typing-svg)
 
 </div>
 
-```rust
-impl Developer for Shabir {
-    fn get_profile(&self) -> Profile {
-        Profile {
-            location: "Rawalpindi, Pakistan",
-            role: "Full Stack Architect",
-            experience: "6+ years",
-            impact: "Serving 100k+ users",
-            superpower: "Turning ☕ into optimized code",
-        }
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shabirkhan23&custom_title=Contribution%20Graph&bg_color=0D1117&color=6E56CF&line=6E56CF&point=FFFFFF&area=true&hide_border=true" width="100%"/>
+</div>
+
+<br />
+
+```typescript
+class FullStackArchitect {
+    private readonly name = "Shabir Khan" as const;
+    private readonly location = "Rawalpindi, Pakistan" as const;
+    private readonly focus = "High-Performance Systems" as const;
+
+    public getExpertise(): TechStack {
+        return {
+            modern_stack: {
+                frontend: ["Next.js", "React", "React Native", "Expo"],
+                styling: ["Tailwind CSS", "Shadcn UI", "Ant Design"],
+                state: ["Zustand", "Redux Toolkit", "React Query"],
+            },
+            backend: {
+                rust_ecosystem: ["Axum", "Tokio", "Diesel"],
+                node_ecosystem: ["Bun", "Hono", "Express"],
+                databases: ["PostgreSQL", "MongoDB", "Redis"],
+                messaging: ["Kafka", "RabbitMQ", "Socket.IO"],
+            },
+            devops: {
+                cloud: ["AWS", "Vercel", "Docker"],
+                iac: ["Terraform", "Ansible", "GitHub Actions"],
+                monitoring: ["Grafana", "Prometheus", "ELK Stack"],
+            },
+            security: {
+                practices: ["OWASP Top 10", "Penetration Testing"],
+                tools: ["Burp Suite", "Metasploit", "Wireshark"],
+            }
+        };
     }
 
-    fn get_tech_stack(&self) -> TechStack {
-        TechStack {
-            languages: vec!["TypeScript", "Rust", "JavaScript"],
-            frontend: vec!["Next.js", "React", "React Native", "Expo"],
-            backend: vec!["Axum", "Node.js", "Bun", "Hono"],
-            databases: vec!["PostgreSQL", "MongoDB", "Redis"],
-            state: vec!["Zustand", "Redux Toolkit"],
-            styling: vec!["Tailwind CSS", "Shadcn UI", "Ant Design"],
-            testing: vec!["Vitest", "Cypress"],
-            devops: vec!["Docker", "AWS", "Terraform", "Ansible"],
-            message_queues: vec!["Kafka", "RabbitMQ"],
-            misc: vec!["GraphQL", "Socket.IO", "Memcache"],
-        }
+    public getAchievements(): Metrics {
+        return {
+            api_optimization: "50% reduction in API calls using GraphQL",
+            performance_boost: "40% faster applications with Next.js",
+            user_impact: "100k+ users served across platforms",
+            project_delivery: "30+ complex projects delivered",
+        };
     }
 }
 ```
 
-## 📊 GitHub Stats
+<div align="center">
+  
+## 💫 Expertise Spectrum
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=ts,rust,nextjs,react,tailwind,nodejs,graphql,postgres,redis,docker,aws,github" />
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,prisma,redux,sass,firebase,linux,vim,vscode,figma,git" />
+
+</div>
+
+## 📊 Performance Matrix
 
 <div align="center">
   
-| <a href="https://github.com/shabirkhan23/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=shabirkhan23&show_icons=true&include_all_commits=true&theme=aura&hide_border=true" alt="Shabir's github stats" /></a> | <a href="https://github.com/shabirkhan23/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shabirkhan23&layout=compact&theme=aura&hide_border=true" /></a> |
+| <img align="center" src="https://github-readme-stats.vercel.app/api?username=shabirkhan23&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=6E56CF&text_color=6E56CF&icon_color=6E56CF" alt="Shabir's github stats" /> | <img align="center" src="http://github-readme-streak-stats.herokuapp.com?user=shabirkhan23&theme=transparent&hide_border=true&ring=6E56CF&fire=6E56CF&currStreakNum=6E56CF&sideNums=6E56CF&currStreakLabel=6E56CF&sideLabels=6E56CF&dates=6E56CF" /> |
 | ------------- | ------------- |
 
 </div>
 
-## 🎯 Expertise
+## 🎯 Core Competencies
 
 <div align="center">
 
-| Frontend | Backend | Database | DevOps |
-|:--------:|:-------:|:--------:|:------:|
-| ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge) | ![Rust](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=fff&style=for-the-badge) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) |
-| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge) | ![Axum](https://img.shields.io/badge/Axum-000?logo=rust&logoColor=fff&style=for-the-badge) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=for-the-badge) | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=for-the-badge) |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge) | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=fff&style=for-the-badge) | ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff&style=for-the-badge) | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=fff&style=for-the-badge) |
-| ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge) | ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=fff&style=for-the-badge) | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=fff&style=for-the-badge) | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=fff&style=for-the-badge) |
+| Architecture & Development | Performance & Security | DevOps & Infrastructure |
+|:------------------------:|:----------------------:|:----------------------:|
+| ![Architecture](https://progress-bar.dev/95/?title=System%20Design&width=200&color=6E56CF) | ![Performance](https://progress-bar.dev/90/?title=Optimization&width=200&color=6E56CF) | ![DevOps](https://progress-bar.dev/85/?title=DevOps&width=200&color=6E56CF) |
+| ![Frontend](https://progress-bar.dev/95/?title=Frontend&width=200&color=6E56CF) | ![Security](https://progress-bar.dev/90/?title=Security&width=200&color=6E56CF) | ![Cloud](https://progress-bar.dev/85/?title=Cloud&width=200&color=6E56CF) |
+| ![Backend](https://progress-bar.dev/95/?title=Backend&width=200&color=6E56CF) | ![Testing](https://progress-bar.dev/90/?title=Testing&width=200&color=6E56CF) | ![Monitoring](https://progress-bar.dev/85/?title=Monitoring&width=200&color=6E56CF) |
 
 </div>
 
-## 🚀 Highlights
-
-- 🎯 Reduced API calls by **50%** using GraphQL
-- ⚡ Improved app performance by **40%** with Next.js
-- 🌐 Serving **100k+** users across **30+** projects
-- 🛡️ Implementing secure, scalable solutions
-- 🔄 Optimizing CI/CD pipelines with GitHub Actions
-
-## 🌟 GitHub Streak
+## 🌐 Connect & Collaborate
 
 <div align="center">
   
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shabirkhan23&theme=aura&hide_border=true)](https://github.com/shabirkhan23)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://linkedin.com/in/shabirkhan23)](https://linkedin.com/in/shabirkhan23)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:shabirkhan.dev@gmail.com)](mailto:shabirkhan.dev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shabirkhan23)
 
-</div>
-
-## 🤝 Let's Connect
-
-<div align="center">
+### 📈 Profile Views
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shabirkhan23)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shabirkhan.dev@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio-url.com)
+![Profile Views](https://komarev.com/ghpvc/?username=shabirkhan23&style=for-the-badge&color=6E56CF)
 
 </div>
 
-<div align="center">
-
----
-
-### "Code is poetry written in binary, security is the rhythm that keeps it safe." 🎭
-
-</div>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
