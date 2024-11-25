@@ -2,16 +2,7 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&duration=4000&pause=1000&color=3584E4&center=true&vCenter=true&random=false&width=635&lines=Enterprise+Solutions+Architect;Performance+Optimization+Expert;Cloud+Native+Developer;Innovation+Strategist)](https://git.io/typing-svg)
-
-```typescript
-while (alive) {
-    eat();
-    sleep();
-    code();
-    repeat();
-}
-```
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=30&duration=4000&pause=1000&color=3584E4&center=true&vCenter=true&random=false&width=635&lines=Enterprise+Solutions+Architect;Performance+Optimization+Expert;Cloud+Native+Developer;Full+Stack+Innovation+Leader)](https://git.io/typing-svg)
 
 </div>
 
@@ -32,42 +23,76 @@ while (alive) {
 
 </div>
 
-## 💫 Tech Arsenal
+## 💫 Professional Overview
 
 ```rust
 #[derive(Debug)]
-struct Engineer {
-    name: String,
-    role: String,
-    location: String,
-    expertise: Vec<String>,
-    mastery: HashMap<String, Vec<String>>,
+struct TechStack {
+    frontend: Vec<Technology>,
+    backend: Vec<Technology>,
+    database: Vec<Technology>,
+    devops: Vec<Technology>,
 }
 
-impl Engineer {
+#[derive(Debug)]
+struct Technology {
+    name: String,
+    experience_level: u8,  // Out of 100
+    category: Category,
+}
+
+#[derive(Debug)]
+enum Category {
+    Core,
+    Framework,
+    Tool,
+}
+
+impl TechStack {
     fn new() -> Self {
-        Engineer {
-            name: String::from("Shabir Khan"),
-            role: String::from("Lead Front End Developer @ Excelorithm LLC"),
-            location: String::from("Rawalpindi, Pakistan 🇵🇰"),
-            expertise: vec![
-                "Enterprise Architecture",
-                "Cloud Native Development",
-                "Performance Engineering",
-                "Security Implementation",
+        TechStack {
+            frontend: vec![
+                Technology { 
+                    name: "Next.js".to_string(), 
+                    experience_level: 90,
+                    category: Category::Framework 
+                },
+                Technology { 
+                    name: "React".to_string(), 
+                    experience_level: 95,
+                    category: Category::Core 
+                },
+                // Additional frontend technologies...
             ],
-            mastery: HashMap::from([
-                ("optimization", vec![
-                    "50% API call reduction via GraphQL",
-                    "40% performance boost with Next.js",
-                    "35% reduced page load time",
-                ]),
-                ("innovation", vec![
-                    "Serverless architecture design",
-                    "Microservices implementation",
-                    "Real-time system optimization",
-                ]),
-            ]),
+            backend: vec![
+                Technology { 
+                    name: "Rust".to_string(), 
+                    experience_level: 85,
+                    category: Category::Core 
+                },
+                Technology { 
+                    name: "Node.js".to_string(), 
+                    experience_level: 90,
+                    category: Category::Core 
+                },
+                // Additional backend technologies...
+            ],
+            database: vec![
+                Technology { 
+                    name: "PostgreSQL".to_string(), 
+                    experience_level: 88,
+                    category: Category::Core 
+                },
+                // Additional database technologies...
+            ],
+            devops: vec![
+                Technology { 
+                    name: "AWS".to_string(), 
+                    experience_level: 85,
+                    category: Category::Core 
+                },
+                // Additional DevOps technologies...
+            ],
         }
     }
 }
@@ -82,6 +107,7 @@ impl Engineer {
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
 [![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)](#)
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](#)
 [![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](#)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
 
@@ -89,21 +115,25 @@ impl Engineer {
 [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](#)
 [![Axum](https://img.shields.io/badge/Axum-4B275F?style=for-the-badge&logo=rust&logoColor=white)](#)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](#)
 [![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)](#)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](#)
+[![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)](#)
 
 ### 🗄️ Data Layer
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](#)
 [![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)](#)
 [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](#)
 
 ### 🚀 DevOps & Cloud
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](#)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
-[![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)](#)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](#)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
 [![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)](#)
 
 </div>
@@ -129,15 +159,6 @@ impl Engineer {
 
 <div align="center">
   
-*"Building tomorrow's infrastructure, optimizing today's performance"*
+*"Architecting scalable solutions with performance at their core"*
 
-```javascript
-// Current Status
-export const focus = {
-    learning: ["Edge Computing", "Web3", "AI/ML Integration"],
-    building: ["Scalable Systems", "High-Performance APIs"],
-    exploring: ["Rust Ecosystem", "Cloud Native Architecture"]
-};
-```
-  
 </div>
