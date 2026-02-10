@@ -1,35 +1,36 @@
-&lt;!-- Header Banner --&gt;
-&lt;div align="center"&gt;
-  &lt;img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2540,50:00D4AA,100:0A2540&height=200&section=header&text=Shabir%20Khan&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Architect%20%7C%20Performance%20Engineer&descSize=18&descAlignY=55" alt="header" /&gt;
-&lt;/div&gt;
+```markdown
+<!-- Header Banner -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2540,50:00D4AA,100:0A2540&height=200&section=header&text=Shabir%20Khan&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Architect%20%7C%20Performance%20Engineer&descSize=18&descAlignY=55" alt="header" />
+</div>
 
-&lt;!-- Dynamic Typing --&gt;
-&lt;div align="center"&gt;
+<!-- Dynamic Typing -->
+<div align="center">
   
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Designing+Scalable+Systems;Optimizing+Performance+at+Scale;Cloud-Native+Architecture;Full-Stack+Innovation)](https://git.io/typing-svg)
   
-&lt;/div&gt;
+</div>
 
-&lt;!-- Social Proof Bar --&gt;
-&lt;div align="center" style="margin: 20px 0;"&gt;
+<!-- Social Proof Bar -->
+<div align="center" style="margin: 20px 0;">
   
-  &lt;a href="https://linkedin.com/in/shabirkhan23"&gt;
-    &lt;img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" /&gt;
-  &lt;/a&gt;
-  &lt;a href="mailto:shabirkhan.dev@gmail.com"&gt;
-    &lt;img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" /&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/shabirkhan-dev"&gt;
-    &lt;img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" /&gt;
-  &lt;/a&gt;
+  <a href="https://linkedin.com/in/shabirkhan23">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="mailto:shabirkhan.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" />
+  </a>
+  <a href="https://github.com/shabirkhan-dev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" />
+  </a>
   
-&lt;/div&gt;
+</div>
 
 ---
 
 ## Impact Metrics
 
-&lt;div align="center"&gt;
+<div align="center">
 
 | Metric | Achievement | Impact |
 |:------:|:-----------:|:------:|
@@ -38,11 +39,11 @@
 | **User Scale** | 100K+ Active Users | Global Distributed Systems |
 | **Infrastructure** | 99.9% Uptime | Zero-Downtime Deployments |
 
-&lt;/div&gt;
+</div>
 
 ## Technical Architecture
 
-&lt;div align="center"&gt;
+<div align="center">
 
 ### Frontend Ecosystem
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
@@ -67,18 +68,18 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io)
 
-&lt;/div&gt;
+</div>
 
 ## Engineering Philosophy
 
 ```rust
 // Systems Architecture Principles
 pub struct Architecture {
-    principles: Vec&lt;Principle&gt;,
+    principles: Vec<Principle>,
 }
 
 impl Architecture {
-    pub fn enterprise_grade() -&gt; Self {
+    pub fn enterprise_grade() -> Self {
         Architecture {
             principles: vec![
                 Principle::SecurityFirst,
@@ -89,11 +90,49 @@ impl Architecture {
         }
     }
     
-    pub fn optimize_for(&self, metric: PerformanceMetric) -&gt; Result&lt;Outcome, Error&gt; {
+    pub fn optimize_for(&self, metric: PerformanceMetric) -> Result<Outcome, Error> {
         match metric {
-            PerformanceMetric::Latency =&gt; self.reduce_response_time(),
-            PerformanceMetric::Throughput =&gt; self.scale_horizontally(),
-            PerformanceMetric::Reliability =&gt; self.implement_circuit_breakers(),
+            PerformanceMetric::Latency => self.reduce_response_time(),
+            PerformanceMetric::Throughput => self.scale_horizontally(),
+            PerformanceMetric::Reliability => self.implement_circuit_breakers(),
         }
     }
 }
+```
+
+## GitHub Analytics
+
+<div align="center">
+  
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shabirkhan-dev&show_icons=true&theme=transparent&hide_border=true&title_color=00D4AA&text_color=0A2540&icon_color=00D4AA&ring_color=00D4AA" alt="GitHub Stats" />
+  
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=shabirkhan-dev&theme=transparent&hide_border=true&stroke=00D4AA&ring=00D4AA&fire=EA4335&currStreakNum=0A2540&sideNums=0A2540&currStreakLabel=0A2540&sideLabels=0A2540" alt="GitHub Streak" />
+  
+</div>
+
+<div align="center">
+  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shabirkhan-dev&theme=react&hide_border=true&bg_color=ffffff&color=0A2540&line=00D4AA&point=EA4335&area=true&area_color=00D4AA" width="100%" alt="Activity Graph" />
+  
+</div>
+
+## Connect
+
+<div align="center">
+
+**Open for collaboration on high-impact systems architecture and performance engineering projects.**
+
+<a href="https://linkedin.com/in/shabirkhan23">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:shabirkhan.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+</div>
+
+<!-- Footer -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:0A2540,100:00D4AA&height=100&section=footer" alt="footer" />
+</div>
+```
