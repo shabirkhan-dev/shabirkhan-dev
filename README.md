@@ -77,7 +77,7 @@ impl Architecture {
     }
 }
 
-
+```
 **Core principles:**
 
 * Security first
